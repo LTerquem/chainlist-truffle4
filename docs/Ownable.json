@@ -8,15 +8,15 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x60606040523415600e57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605b6000396000f3006060604052600080fd00a165627a7a723058207f4992a9d2fbb0df4630f15b70fe3feb63eed612f258b8d7cd61df4afb79dfd00029",
-  "deployedBytecode": "0x6060604052600080fd00a165627a7a723058207f4992a9d2fbb0df4630f15b70fe3feb63eed612f258b8d7cd61df4afb79dfd00029",
+  "bytecode": "0x60606040523415600e57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605b6000396000f3006060604052600080fd00a165627a7a72305820323c732e220ccd9d3722e0688171d43ec42fa0e08d46d6d47378294dd2d3eb870029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820323c732e220ccd9d3722e0688171d43ec42fa0e08d46d6d47378294dd2d3eb870029",
   "sourceMap": "26:220:2:-;;;189:55;;;;;;;;229:10;221:5;;:18;;;;;;;;;;;;;;;;;;26:220;;;;;;",
   "deployedSourceMap": "26:220:2:-;;;;;",
   "source": "pragma solidity ^0.4.18;\n\ncontract Ownable {\n  // state variables\n  address owner;\n\n  // modifiers\n  modifier onlyOwner() {\n    require(msg.sender == owner);\n    _;\n  }\n\n  // constructor\n  function Ownable() public {\n    owner = msg.sender;\n  }\n}\n",
-  "sourcePath": "C:\\Users\\Meta\\Desktop\\Udemy\\BlockChain_Course\\deploy\\chainlist\\contracts\\Ownable.sol",
+  "sourcePath": "C:\\Users\\Meta\\Desktop\\Udemy\\BlockChain_Course\\private\\chainlist\\contracts\\Ownable.sol",
   "ast": {
     "attributes": {
-      "absolutePath": "/C/Users/Meta/Desktop/Udemy/BlockChain_Course/deploy/chainlist/contracts/Ownable.sol",
+      "absolutePath": "/C/Users/Meta/Desktop/Udemy/BlockChain_Course/private/chainlist/contracts/Ownable.sol",
       "exportedSymbols": {
         "Ownable": [
           345
@@ -360,5 +360,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-04-30T17:26:36.575Z"
+  "updatedAt": "2018-05-05T14:12:49.338Z"
 }

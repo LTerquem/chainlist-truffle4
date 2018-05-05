@@ -1,0 +1,1 @@
+geth --rinkeby --rpc --rpcapi="personal,network,web3,net,eth"
